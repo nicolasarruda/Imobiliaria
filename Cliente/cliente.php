@@ -4,17 +4,18 @@ session_start();
 
 include("checkLogin.php");
 
+
 echo "<center><h1> O que deseja fazer?</h1></center>";
 echo "
     <div class = 'header-2'>
     <ul>
-    <li><img src='html\imagens\relapsoslogo.png'></li>
-    <li style = 'margin-left:150px;'><a href = 'index.php'>HISTÓRIA</a></li>
+    <li><img src=" . 'imagens\relapsoslogo.png' . "></li>
+    <li style = 'margin-left:150px;'><a href =''>PATRIMÔNIO</a></li>
     <li><a href = 'index.php'>ALUGUEL</a></li>
     <li><a href = 'index.php'>COMPRA</a></li>
-    <li><a href = 'index.php'>NOVOS IMÓVEIS</a></li>
-    <li><a href = 'index.php'>CADASTRO DE IMÓVEIS</a></li>
-    <li><a href = 'index.php'>CONTATOS</a></li>
+    <li><a href = 'index.php'>ATENDIMENTO</a></li>
+    <li><a href = 'index.php'>TRANSFERÊNCIA</a></li>
+    <li><a href = 'index.php'>PERFIL</a></li>
     </ul>
     </div>";
     
@@ -32,4 +33,10 @@ echo "<center>
 "
 ?>
 
+<html>
+
+<footer>
+    <link rel = "stylesheet" href="css/style.css" type = "text/css">
+</footer>
+</html>
         
