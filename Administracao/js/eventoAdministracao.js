@@ -1,4 +1,4 @@
-function entrar(){
+function entrarAdministracao(){
   
     alert("Acesso com sucesso!");
 }
