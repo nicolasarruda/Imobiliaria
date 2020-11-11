@@ -19,8 +19,8 @@
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "login.html"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a href="login.html">Login</a></li>
+            <li style = "margin-left: 60px;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a href="index.html">Login</a></li>
     </ul>
     </div>
     </header>
