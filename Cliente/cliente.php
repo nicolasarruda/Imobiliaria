@@ -27,7 +27,7 @@ session_start();
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "font-size: 20px;margin-left: 60px;font-weight: bold;"><a href= 'sair.php'><img style='float:right' src='imagens\img_sair.jpg'>Sair</a></>
+            <li style = "font-size: 20px;margin-left: 60px;font-weight: bold;"><a href= 'sair.php'><img style='float:right' src='imagens\img_sair.png'>Sair</a></>
     </ul>
     </div>
     </header>
