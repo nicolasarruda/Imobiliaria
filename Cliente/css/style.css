@@ -203,8 +203,6 @@ color:rgb(23, 127, 135);
 .form input:valid + .label-name::after{
 transform:translateX(0%);
 
-
-
 }
 
 .form2 input:focus + .label-name .content-name, 
