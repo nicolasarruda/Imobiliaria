@@ -14,12 +14,14 @@
             <li><p>(11) 9 1234-5678</p></li>
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
-            <li style = "margin-left: 550px;"><a>|</a></li>
+            <li style="margin-left:auto;"></li>
+            <li style = "margin-left: 580px;"><a>|</a></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
+            
+            <li style = "margin-left: auto;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
             <li style = "font-size: 20px;font-weight: bold;"><a href="index.html">Login</a></li>
     </ul>
     </div>
@@ -27,17 +29,21 @@
     <div class = "header-2">
             <ul>
             <li><img src="imagens\relapsoslogo.png"></li>
-            <li style = "margin-left:150px;"><a href = "index.php">HISTÓRIA</a></li>
-            <li><a href = "index.php">ALUGUEL</a></li>
-            <li><a href = "index.php">COMPRA</a></li>
-            <li><a href = "index.php">NOVOS IMÓVEIS</a></li>
-            <li><a href = "index.php">CADASTRO DE IMÓVEIS</a></li>
+            <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
+            <li><a href = "index.php">IMÓVEIS</a></li>
+            <li><a href = "index.php">CADASTRO DE USUÁRIOS</a></li>
             <li><a href = "index.php">CONTATOS</a></li>
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">
 <div class ="img-1">
     <img src="imagens\imagem1.png">
+    </div>
+    <div class ="img-2">
+    <img src="imagens\imagem2.png">
+    </div>
+    <div class = "final">
+        asd
     </div>
 </body>
     
