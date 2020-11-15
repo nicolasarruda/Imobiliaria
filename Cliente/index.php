@@ -19,10 +19,9 @@
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            
+            <li style = "font-size: 20px;"><p>imorelapsos</p></li>      
             <li style = "margin-left: auto;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a href="index.html">Login</a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="index.html">Login</a></li>
     </ul>
     </div>
     </header>
@@ -30,9 +29,9 @@
             <ul>
             <li><img src="imagens\relapsoslogo.png"></li>
             <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
-            <li><a href = "index.php">IMÓVEIS</a></li>
-            <li><a href = "index.php">CADASTRO DE USUÁRIOS</a></li>
-            <li><a href = "index.php">CONTATOS</a></li>
+            <li><a href = "imoveis.php">IMÓVEIS</a></li>
+            <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
+            <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">

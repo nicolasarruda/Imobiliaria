@@ -2,8 +2,10 @@
 
 session_start();
 ?>
-
-<!DOCTYPE html>
+<?php
+ include 'conexão.php';
+?>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -37,16 +39,26 @@ session_start();
             <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
             <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
-    </div>
-    <hr style = "margin:1px;border: 1px solid silver">
-<div class ="img-1">
-    <img src="imagens\imagem1.png">
-    </div>
-    <div class ="img-2">
-    <img src="imagens\imagem2.png">
-    </div>
-    <div class = "final">
+        </div>
+            <?php
 
+$sql =  "SELECT *
+		FROM proprietarios
+		ORDER BY nome";
+$tabela = mysqli_query($conexao, $sql);
+while ($linha = mysqli_fetch_array($tabela))
+{
+echo $linha['nome'];	
+echo $linha['CPF'];
+echo $linha['endereco'];
+echo $linha['telefone'];
+
+
+}
+?>
+    
 </body>
 
 </html>
+
+

@@ -29,10 +29,10 @@
     <div class = "header-2">
             <ul>
             <li><img src="imagens\relapsoslogo.png"></li>
-            <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
-            <li><a href = "index.php">IMÓVEIS</a></li>
-            <li><a href = "index.php">CADASTRO DE USUÁRIOS</a></li>
-            <li><a href = "index.php">CONTATOS</a></li>
+            <li style = "margin-left:200px;"><a href = "cliente.php">HOME</a></li>
+            <li><a href = "cliente.php">IMÓVEIS</a></li>
+            <li><a href = "cliente.php">CADASTRO DE USUÁRIOS</a></li>
+            <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">
