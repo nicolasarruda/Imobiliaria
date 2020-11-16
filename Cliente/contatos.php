@@ -21,8 +21,8 @@
             <li><img src="imagens\facebook.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             
-            <li style = "margin-left: auto;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a href="index.html">Login</a></li>
+            <li style = "margin-left: auto;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a href="login.php">Login</a></li>
     </ul>
     </div>
     </header>

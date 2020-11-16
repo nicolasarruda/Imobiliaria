@@ -20,7 +20,7 @@ if ($msg == TRUE){
     header("Location:cliente.php");
 }
 else {
-    header("Location:index.html");
+    header("Location:login.php");
 }
 
 

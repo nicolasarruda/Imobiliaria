@@ -1,15 +1,12 @@
-<?php
- include 'conexão.php';
-?>
-
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script></script>   
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Imobiliária RELAPSOS</title>
+    <link rel = "stylesheet" href="css/style.css" type = "text/css">
+    <script language="JavaScript" src="js/funcoes.js"></script>
+</head>
 <body>
-    <body>
     <header class = "header-1">
         <div class= "info">
         <ul>
@@ -22,8 +19,8 @@
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="login.php">Login</a></li>
+            <li style = "margin-left: 60px;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="index.html">Login</a></li>
     </ul>
     </div>
     </header>
@@ -37,29 +34,32 @@
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">
-    <div style = "display:flex;
-justify-content: space-around;
-align-items: middle;
-flex-direction: column;
-background-color:rgb(23, 127, 135);
-width: 100%;
-">
+    <div class="conteudo-login">
     <center><br><br>
-    <h1 style = "color:white;"> Cadastro</h1><br><br>
-    </center>
-    <center>
-    <form style = "color:white;" action="" name="">
-        <p>Nome<input  type="text" name="nome" value=""></p>
-        <p>E-mail<input type="text" name="email" value=""></p>
-        <p>RG<input type="text" name="nome" value=""> </p>
-        <p>CPF<input type="text" name="cpf" value=""></p>
-        <p>Endereço<input type="text" name="endereco" value=""></p>
-        <p>Telefone<input type="text" name="telefone" value=""></p>
-        <p>Senha<input type="password" name="senha" value=""></p><br>
-        <input style = "margin-bottom:30px;" type="submit" value="Cadastrar" onload="function cadastrar()">
-    </form>
-</center>
+<h1 style="color:white;font-family: 'Calibri';">Faça o login</h1><br>
+
+<form name="form" id="form" action="validaLogin.php" method="POST">
+<div class = "form2">
+<input type="text" name="login" id="login" autocomplete="on" required>
+<label for="login" class="label-name">
+    <span class = "content-name">Login</span>
+</label>
 </div>
+<br>
+<div class = "form2">
+<input type="password" name="senha" id="senha" autocomplete="on" required>
+<label for="name" class="label-name">
+    <span class = "content-name">Senha</span>
+</label>
+        </div>
+        <br>
+        <input type="submit" value="Entrar" onclick="entrar()"><br>
+    </form>
+        <br><br>
+                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relapsos? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma</p>
+                </center>
+    </div>
+
 </body>
 <footer>
         <center>
@@ -76,8 +76,6 @@ width: 100%;
         </center>
     </footer>
     
-</body>
 </html>
-<?php
-mysqli_close($conexao);
-?>
+
+
