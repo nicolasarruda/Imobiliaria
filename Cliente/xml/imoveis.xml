@@ -11,13 +11,19 @@
 			<descricao>Cansada da vida cinza da cidade de SP? Venha para a melhor praia do mundo!</descricao>
 			<imagem>imagens\casanapraia.jpg</imagem>
 			<comodos>6</comodos>
-		</sabores>
+			<preco>$$</preco>
+			<quartos>2</quartos>
+			<endereco>Copacapana</endereco>
+			</sabores>
 		<sabores>
 
 			<nome> Cabana na Floresta </nome>
 			<descricao>Gosta de acampar? Que tal acampar para todo o sempre? Com essa perfeita cabana, o seu sonho pode se tornar realidade!</descricao>
 			<imagem>imagens\cabana.jpg</imagem>
 			<comodos>4</comodos>
+			<preco>$</preco>
+			<quartos>1</quartos>
+			<endereco>Minas Gerais</endereco>
 		</sabores>
 		<sabores>
 
@@ -25,6 +31,9 @@
 			<descricao>Gosta de ver estrelas? Esse apartamente pode ter 5 estrelas, mas voce podera ver todas! </descricao>
 			<imagem>imagens\apchique.jpg</imagem>
 			<comodos>4</comodos>
+			<preco>$$$$$</preco>
+			<quartos>3</quartos>
+			<endereco>Jardim Europa</endereco>
 		</sabores>
 		<sabores>
 
@@ -32,6 +41,9 @@
 			<descricao>Nada melhor que uma casa com piscina para alegrar a garotada e saber mais sobre as suas amizades! hehe</descricao>
 			<imagem>imagens\casapiscina.jpg</imagem>
 			<comodos>6</comodos>
+			<preco>$$$</preco>
+			<quartos>2</quartos>
+			<endereco>Alfaville</endereco>
 		</sabores>
 	</pasteis>
 </array>
