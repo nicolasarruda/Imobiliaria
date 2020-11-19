@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -8,19 +8,20 @@
 </head>
 <body>
     <header class = "header-1">
-        <div class= "info">
+ <div class= "info">
         <ul>
             <li><img src="imagens\celularbranco.png"></li>
             <li><p>(11) 9 1234-5678</p></li>
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
-            <li style = "margin-left: 500px;"><p>|</p></li>
+            <li style="margin-left:auto;"></li>
+            <li style = "margin-left: 500px;color:white;"><a>|</a></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="index.html">Login</a></li>
+            <li style = "font-size: 20px;"><p>imorelapsos</p></li>      
+            <li style = "margin-left: auto;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="login.php">Login</a></li>
     </ul>
     </div>
     </header>
@@ -32,38 +33,28 @@
             <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
             <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
-    </div>
-    <hr style = "margin:1px;border: 1px solid silver">
-    <div class="conteudo-login">
-    <center><br><br>
-<h1 style="color:white;font-family: 'Calibri';">Faça o login</h1><br>
+        </div> 
+        <table class = "lista-imoveis" style = "text-align: center;margin-top:10px;width:80%">
+    <?php $link = "xml\imoveis.xml";
+    $xml = simplexml_load_file($link) -> pasteis;
+    foreach($xml -> sabores as $aula){
+echo "<tr style = ''>";
+echo "<th>";
+echo "<img style = 'max-width:300px;border:3px solid gray;'src=' ".$aula -> imagem." '></img><br/>";
+echo "</th>";
+echo "<th style = 'background-color:white;border:2px solid gray;'>";
+echo "<font color = 'gray' size = '6pt'>". utf8_decode($aula -> nome)."</font><br/>";
+echo "Descrição <br/> <font color = 'gray'>".utf8_decode($aula -> descricao)."</font>";
+echo "</th>";
+}
+    ?>
 
-<form name="form" id="form" action="validaLogin.php" method="POST">
-<div class = "form2">
-<input type="text" name="login" id="login" autocomplete="on" required>
-<label for="login" class="label-name">
-    <span class = "content-name">Login</span>
-</label>
-</div>
-<br>
-<div class = "form2">
-<input type="password" name="senha" id="senha" autocomplete="on" required>
-<label for="name" class="label-name">
-    <span class = "content-name">Senha</span>
-</label>
-        </div>
-        <br>
-        <input type="submit" value="Entrar" onclick="entrar()"><br>
-    </form>
-        <br><br>
-                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relapsos? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma</p>
-                </center>
-    </div>
-
+</table>
 </body>
 <footer>
         <center>
             <br>
+            <hr>
             <h3 class="">Contato:</h3><br>
             <a href="https://www.facebook.com/relapso.relapsus.5" target="_blank"><img src="imagens\logo_facebook.png"></a>
             <a href="https://www.instagram.com/liderrelapsos/" target="_blank"><img src="imagens\logo_instagram.png"></a>
@@ -75,7 +66,6 @@
             <p>Bairro: Vila dos Relapsos</p>
         </center>
     </footer>
-    
 </html>
 
 

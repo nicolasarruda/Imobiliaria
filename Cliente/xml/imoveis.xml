@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<array>
+	<data>
+		<cidade>Jundiaí</cidade>
+
+	</data>
+	<pasteis>
+		<sabores>
+
+			<nome> Casa na Praia Relapsa </nome>
+			<descricao>Cansada da vida cinza da cidade de SP? Venha para a melhor praia relapsa do mundo!</descricao>
+			<imagem>imagens\casanapraia.jpg</imagem>
+		</sabores>
+		<sabores>
+
+			<nome> Cabana Relapsa </nome>
+			<descricao>Gosta de acampar? Que tal acampar para todo o sempre? Com uma cabana relapsa faz o seu sonho se tornar realidade!</descricao>
+			<imagem>imagens\cabana.jpg</imagem>
+		</sabores>
+		<sabores>
+
+			<nome> Caverna Relapsa </nome>
+			<descricao>Quer viajar no tempo? Sem problemas! Temos a caverna perfeita para viajar a cada 33 anos!</descricao>
+			<imagem>imagens\caverna.png</imagem>
+		</sabores>
+		<sabores>
+
+			<nome> Caixa de Grande Papel Relapsa </nome>
+			<descricao>A melhor casa para o seu bixano, para que gastar dinheiro em uma casinha cara e super moderna se eles preferem dormir
+			na caixa em que ela foi embalada?</descricao>
+			<imagem>imagens\caixadepapelao.jpg</imagem>
+		</sabores>
+	</pasteis>
+</array>

@@ -1,18 +1,18 @@
 <?php
-session_start();
+mysqli_connect('localhost', 'root','','testedoserv') or die("Erro de conexão ->".mysql_error());
+mysqli_select_db('testedoserv') or die(mysqli_error());
 
-$login = array("Relapso1", "Relapso2");
-$senha = array("rel123", "rel321");
-
-$lengthArray = count($login);
 $msg = FALSE;
 
-for($i = 0; $i < $lengthArray; $i++){
-    if ($_POST["login"] == $login[$i] && $_POST["senha"] == $senha[$i]){
-        $msg = TRUE;
-    break;
+
+    if (isset($_POST["login"])  && isset($_POST["senha"])){
+    	$login = $_POST['login'];
+    	$senha = $_POST['senha'];
+		$get = mysqli_query('SELECT * FROM testedoserv WHERE nome = "$login" AND senha = "$senha"');
+    	$msg = TRUE;
+
     }
-}
+
 
 if ($msg == TRUE){
     $_SESSION["logado"] = TRUE;
@@ -20,7 +20,7 @@ if ($msg == TRUE){
     header("Location:cliente.php");
 }
 else {
-    header("Location:index.html");
+    header("Location:login.php");
 }
 
 

@@ -2,8 +2,8 @@
 session_cache_expire(180);
 session_start();
 
-include("checkLogin.php");
-
+include("checkLoginProp.php");
+echo "<a href= 'sair.php'><img style='float:right' src='imagens\img_sair.jpg'></a></>";
 
 echo "<center><h1> O que deseja fazer?</h1></center>";
 echo "
