@@ -15,7 +15,7 @@
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
             <li style="margin-left:auto;"></li>
-            <li style = "margin-left: 580px;"><a>|</a></li>
+            <li style = "margin-left: 500px;"><p>|</p></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
@@ -41,9 +41,24 @@
     <div class ="img-2">
     <img src="imagens\imagem2.png">
     </div>
-    <div class = "final">
-        asd
+    <div class = "img-3">
+
     </div>
 </body>
-    
+
+<footer style = "width: 100%;">
+        <center>
+            <br>
+            <h3 class="">Contato:</h3><br>
+            <a href="https://www.facebook.com/relapso.relapsus.5" target="_blank"><img src="imagens\logo_facebook.png"></a>
+            <a href="https://www.instagram.com/liderrelapsos/" target="_blank"><img src="imagens\logo_instagram.png"></a>
+            <a href="https://twitter.com/RelapsoR" target="_blank"><img src="imagens\logo_twitter.png"></a>
+            <a href=""><img src="imagens\logo_whatsapp.png"></a>
+            <br><br>
+            <p>Endereço: Rua Relapsa número: 5</p>
+            <p>CEP: 12345-123</p>
+            <p>Bairro: Vila dos Relapsos</p>
+        </center>
+    </footer>
+
 </html>

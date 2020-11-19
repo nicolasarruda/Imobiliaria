@@ -9,18 +9,19 @@
 <body>
     <header class = "header-1">
         <div class= "info">
-        <ul>
+       <ul>
             <li><img src="imagens\celularbranco.png"></li>
             <li><p>(11) 9 1234-5678</p></li>
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
-            <li style = "margin-left: 550px;"><a>|</a></li>
+            <li style="margin-left:auto;"></li>
+            <li style = "margin-left: 500px;color:white;"><p>|</p></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "index.html"><img src="imagens\perfil.png"></a></li>
-            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="index.html">Login</a></li>
+            <li style = "font-size: 20px;"><p>imorelapsos</p></li>            
+            <li style = "margin-left: auto;color:white;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="login.php">Login</a></li>
     </ul>
     </div>
     </header>
@@ -53,7 +54,7 @@
 </label>
         </div>
         <br>
-        <input type="submit" value="Entrar" onclick="entrar()"><br>
+        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;"type="submit" value="Entrar" onclick="entrar()"><br>
     </form>
         <br><br>
                 <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relapsos? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma</p>

@@ -1,28 +1,29 @@
 <?php
  include 'conexao.php';
 ?>
-
+<!DOCTYPE html> 
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script></script>   
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Imobiliária RELAPSOS</title>
+    <link rel = "stylesheet" href="css/style.css" type = "text/css">
+    <script language="JavaScript" src="js/funcoes.js"></script>
+</head>
 <body>
-    <body>
     <header class = "header-1">
-        <div class= "info">
+ <div class= "info">
         <ul>
             <li><img src="imagens\celularbranco.png"></li>
             <li><p>(11) 9 1234-5678</p></li>
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
-            <li style = "margin-left: 550px;"><a>|</a></li>
+            <li style="margin-left:auto;"></li>
+            <li style = "margin-left: 500px;color:white"><p>|</p></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelapsos</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
-            <li style = "margin-left: 60px;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
+            <li style = "font-size: 20px;"><p>imorelapsos</p></li>      
+            <li style = "margin-left: auto;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
             <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="login.php">Login</a></li>
     </ul>
     </div>
@@ -35,28 +36,25 @@
             <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
             <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
-    </div>
-    <hr style = "margin:1px;border: 1px solid silver">
-    <div style = "display:flex;
-justify-content: space-around;
-align-items: middle;
-flex-direction: column;
+        </div> 
+   <div class = "cadastrarcliente" style = "
 background-color:rgb(23, 127, 135);
 width: 100%;
+height: 100%;
 ">
-    <center><br><br>
-    <h1 style = "color:white;"> Cadastro</h1><br><br>
+    <center>
+    <h1 style = "color:white;margin-top: 20px;"> Cadastro</h1><br><br>
     </center>
     <center>
     <form style = "color:white;" action="" name="">
-        <p>Nome<input  type="text" name="nome" value=""></p>
-        <p>E-mail<input type="text" name="email" value=""></p>
-        <p>RG<input type="text" name="nome" value=""> </p>
-        <p>CPF<input type="text" name="cpf" value=""></p>
-        <p>Endereço<input type="text" name="endereco" value=""></p>
-        <p>Telefone<input type="text" name="telefone" value=""></p>
-        <p>Senha<input type="password" name="senha" value=""></p><br>
-        <input style = "margin-bottom:30px;" type="submit" value="Cadastrar" onload="function cadastrar()">
+        <p style="margin-left: 25px">Nome<input  type="text" name="nome" value=""></p>
+        <p style="margin-left: 22.5px">E-mail<input type="text" name="email" value=""></p>
+        <p style="margin-left: 44px;">RG<input type="text" name="nome" value=""> </p>
+        <p style="margin-left: 36px;">CPF<input type="text" name="cpf" value=""></p>
+        <p style="margin-left: 0px;">Endereço<input type="text" name="endereco" value=""></p>
+        <p style="margin-left: 8px;">Telefone<input type="text" name="telefone" value=""></p>
+        <p style="margin-left: 22px;">Senha<input type="password" name="senha" value=""></p><br>
+        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" value="Cadastrar" onload="function cadastrar()">
     </form>
 </center>
 </div>
@@ -75,9 +73,10 @@ width: 100%;
             <p>Bairro: Vila dos Relapsos</p>
         </center>
     </footer>
-    
-</body>
 </html>
+
+
+
 <?php
 mysqli_close($conexao);
 ?>
