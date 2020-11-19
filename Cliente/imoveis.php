@@ -34,7 +34,7 @@
             <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
         </div> 
-        <table class = "lista-imoveis" style = "text-align: center;margin-top:10px;width:80%">
+        <table class = "lista-imoveis" style = "margin-top:10px;width:80%">
     <?php $link = "xml\imoveis.xml";
     $xml = simplexml_load_file($link) -> pasteis;
     foreach($xml -> sabores as $aula){
@@ -44,7 +44,8 @@ echo "<img style = 'max-width:300px;border:3px solid gray;'src=' ".$aula -> imag
 echo "</th>";
 echo "<th style = 'background-color:white;border:2px solid gray;'>";
 echo "<font color = 'gray' size = '6pt'>". utf8_decode($aula -> nome)."</font><br/>";
-echo "Descrição <br/> <font color = 'gray'>".utf8_decode($aula -> descricao)."</font>";
+echo "<font color = '#177f87'> Descrição</font> <br/> <font color = 'gray'>".utf8_decode($aula -> descricao)."</font><br>";
+echo "<font color = 'gray'>Esse imóvel possui:".utf8_decode($aula -> comodos)." comodos </font>";
 echo "</th>";
 }
     ?>

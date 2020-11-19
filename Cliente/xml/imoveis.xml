@@ -7,28 +7,31 @@
 	<pasteis>
 		<sabores>
 
-			<nome> Casa na Praia Relapsa </nome>
-			<descricao>Cansada da vida cinza da cidade de SP? Venha para a melhor praia relapsa do mundo!</descricao>
+			<nome> Casa na Praia </nome>
+			<descricao>Cansada da vida cinza da cidade de SP? Venha para a melhor praia do mundo!</descricao>
 			<imagem>imagens\casanapraia.jpg</imagem>
+			<comodos>6</comodos>
 		</sabores>
 		<sabores>
 
-			<nome> Cabana Relapsa </nome>
-			<descricao>Gosta de acampar? Que tal acampar para todo o sempre? Com uma cabana relapsa faz o seu sonho se tornar realidade!</descricao>
+			<nome> Cabana na Floresta </nome>
+			<descricao>Gosta de acampar? Que tal acampar para todo o sempre? Com essa perfeita cabana, o seu sonho pode se tornar realidade!</descricao>
 			<imagem>imagens\cabana.jpg</imagem>
+			<comodos>4</comodos>
 		</sabores>
 		<sabores>
 
-			<nome> Caverna Relapsa </nome>
-			<descricao>Quer viajar no tempo? Sem problemas! Temos a caverna perfeita para viajar a cada 33 anos!</descricao>
-			<imagem>imagens\caverna.png</imagem>
+			<nome> Apartamento todas as Estrelas </nome>
+			<descricao>Gosta de ver estrelas? Esse apartamente pode ter 5 estrelas, mas voce podera ver todas! </descricao>
+			<imagem>imagens\apchique.jpg</imagem>
+			<comodos>4</comodos>
 		</sabores>
 		<sabores>
 
-			<nome> Caixa de Grande Papel Relapsa </nome>
-			<descricao>A melhor casa para o seu bixano, para que gastar dinheiro em uma casinha cara e super moderna se eles preferem dormir
-			na caixa em que ela foi embalada?</descricao>
-			<imagem>imagens\caixadepapelao.jpg</imagem>
+			<nome> Casa com Piscina </nome>
+			<descricao>Nada melhor que uma casa com piscina para alegrar a garotada e saber mais sobre as suas amizades! hehe</descricao>
+			<imagem>imagens\casapiscina.jpg</imagem>
+			<comodos>6</comodos>
 		</sabores>
 	</pasteis>
 </array>
