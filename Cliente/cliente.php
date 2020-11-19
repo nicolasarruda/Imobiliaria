@@ -22,9 +22,9 @@ session_start();
             <li style="margin-left:250px; font-size: 20px;"><?php include("checkLogin.php");?></li>
             <li style = "margin-left: 150px;"><a>|</a></li>
             <li><img src="imagens\instagram.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
+            <li style = "font-size: 20px;"><p>imorelaps</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
+            <li style = "font-size: 20px;"><p>imorelaps</p></li>
             <li style = "font-size: 20px;margin-left: 60px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href= 'sair.php'><img style='float:right' src='imagens\img_sair.png'>Sair</a></>
     </ul>
     </div>

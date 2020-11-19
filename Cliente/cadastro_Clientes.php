@@ -20,9 +20,9 @@
             <li style="margin-left:auto;"></li>
             <li style = "margin-left: 500px;color:white"><p>|</p></li>
             <li><img src="imagens\instagram.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>
+            <li style = "font-size: 20px;"><p>imorelaps</p></li>
             <li><img src="imagens\facebook.png"></li>
-            <li style = "font-size: 20px;"><p>imorelapsos</p></li>      
+            <li style = "font-size: 20px;"><p>imorelaps</p></li>      
             <li style = "margin-left: auto;"><a href = "login.php"><img src="imagens\perfil.png"></a></li>
             <li style = "font-size: 20px;font-weight: bold;"><a style = "color:white;text-decoration: none;" href="login.php">Login</a></li>
     </ul>
