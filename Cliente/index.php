@@ -31,7 +31,7 @@
             <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
             <li><a href = "imoveis.php">IMÓVEIS</a></li>
             <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
-            <li><a href = "contatos.php">CONTATOS</a></li>
+            <li><a href = "contatos_login.php">CONTATOS</a></li>
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">

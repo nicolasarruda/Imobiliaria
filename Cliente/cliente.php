@@ -19,7 +19,7 @@ session_start();
             <li><p>(11) 9 1234-5678</p></li>
             <li><img src="imagens\telefonebranco.png"></li>
             <li><p>(11) 4567-8901</p></li>
-            <li style="margin-left:250px; font-size: 20px;"><?php include("checkLogin.php");?></li>
+            <li style="margin-left:100px; font-size: 20px;"><?php include("checkLogin.php");?></li>
             <li style = "margin-left: 150px;"><a>|</a></li>
             <li><img src="imagens\instagram.png"></li>
             <li style = "font-size: 20px;"><p>imorelaps</p></li>
@@ -32,10 +32,10 @@ session_start();
     <div class = "header-2">
             <ul>
             <li><img src="imagens\relapsoslogo.png"></li>
-            <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
-            <li><a href = "imoveis.php">IMÓVEIS</a></li>
-            <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
-            <li><a href = "contatos.php">CONTATOS</a></li>
+            <li style = "margin-left:200px;"><a href = "cliente.php">HOME</a></li>
+            <li><a href = "imoveis_venda.php">IMÓVEIS</a></li>
+            <li><a href = "imoveis_cliente.php">CONSULTAS</a></li>
+            <li><a href = "contatos_cliente.php">CONTATOS</a></li>
             </ul>
     </div>
     <hr style = "margin:1px;border: 1px solid silver">
