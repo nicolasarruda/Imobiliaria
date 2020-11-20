@@ -53,11 +53,32 @@ height: 100%;
         <p style="margin-left: 36px;">CPF<input type="text" name="cpf" value=""></p>
         <p style="margin-left: 0px;">Endereço<input type="text" name="endereco" value=""></p>
         <p style="margin-left: 8px;">Telefone<input type="text" name="telefone" value=""></p>
+        <p style="margin-left: 8px;">Usuário:<input type="text" name="usuario" value=""></p>
         <p style="margin-left: 22px;">Senha<input type="password" name="senha" value=""></p><br>
         <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" value="Cadastrar" onload="function cadastrar()">
     </form>
 </center>
 </div>
+
+    <?php
+
+    $sql =  "SELECT *
+            FROM clientes
+            ORDER BY nome";
+    $tabela = mysqli_query($conexao, $sql);
+    while ($linha = mysqli_fetch_array($tabela))
+    {
+    echo $linha['nome'];
+    echo $linha['email']; 
+    echo $linha['rg'];   
+    echo $linha['cpf'];
+    echo $linha['endereco'];
+    echo $linha['telefone'];
+    echo $linha['usuario'];
+    echo $linha['senha'];
+    }
+?>
+
 </body>
 <footer>
         <center>
