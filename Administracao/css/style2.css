@@ -129,7 +129,10 @@ h1{
 	color:rgb(10, 91, 97)
 }
 
+.tabela-cliente{
 
+
+}
 /*tela de celular*/
 
 @media only screen and (max-width: 600px) {
@@ -178,6 +181,7 @@ width: 16rem;
 	display:block;
 
 }
+
 .navbar-nav {
 flex-direction: column;
 
