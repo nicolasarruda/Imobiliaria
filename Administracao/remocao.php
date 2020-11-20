@@ -57,8 +57,15 @@
             </nav>
         <main>
           <center><h1>Remoção de Clientes</h1></center>
-          <form name="dados" method="post">
-            
+          <center>
+          <form name="dados" method="post" action="removerbd.php" style="margin-left: -15px;">
+      <p>
+        ID: <input style="margin-left: 5px;" type="text" name="id" value="">
+
+        <input style="margin-left:15px;"type="submit" name="acao" value="Remover">
+      </p>
+    </form>
+            <center>
 
 
           </form>

@@ -56,68 +56,27 @@
             </ul>
             </nav>
         <main>
-          <center><h1>Lista completa de Clientes</h1></center>
-    <table style="border:1px solid rgb(23, 127, 135)"class = "tabela-clientes" align=center width=80%>
-      <td align="center">
-          <b>ID</b>
-        </td>
-        <td align="center">
-          <b>Nome</b>
-        </td>
-        <td align="center"><b>RG</b></td>
-        <td align="center"><b>CPF</b></td>
-		<td align="center"><b>Endereço</b></td>
-		<td align="center"><b>Telefone</b></td>
-    <td align="center"><b>Login</b></td>
-    <td align="center"><b>Senha</b></td>
-    <td align="center"><b>Token</b></td>
-      </tr>
-<?php
-  // Fazendo uma consulta SQL
-  $sql = "SELECT * 
-      FROM clientes 
-      ORDER BY codigo";
-  $tabela = mysqli_query($conexao,$sql);
-  while ($linha = mysqli_fetch_array($tabela))
-  {
-?>
-      <tr>
-        <td align="center">
-          <?php echo $linha['codigo']; ?>
-        </td>
-        <td align="center">
-          <?php echo $linha['nome']; ?>
-        </td>
-        <td align="center">
-          <?php echo $linha['rg']; ?>
-        </td>
-        <td align="center"> 
-          <?php echo $linha['cpf']; ?>
-        </td>
-		<td align="center">
-          <?php echo $linha['endereco']; ?>
-        </td>
-		<td align="center">
-          <?php echo $linha['telefone']; ?>
-        </td>
-        <td align="center">
-          <?php echo $linha['login']; ?>
-        </td>
-        <td align="center">
-          <?php echo $linha['senha']; ?>
-        </td>
-        <td align="center">
-          <?php echo $linha['token']; ?>
-        </td>
-      </tr>
-<?php
-  }
-?>
-    </table>
-<?php
-$token = (md5(uniqid(mt_rand(),true)));
-echo "token: ".$token;
-?>
+          <center><h1>Edição de Clientes</h1></center>
+          <center>
+          <form name="dados" method="post" action="editarbd.php" style="margin-left: -15px;">
+      <p>
+        ID: <input style="margin-left: 5px;" type="text" name="id" value=""><Br>
+        Nome: <input style="margin-left: 5px;" type="text" name="nome" value=""><br>
+        RG: <input style="margin-left: 5px;" type="text" name="rg" value=""><br>
+        CPF: <input style="margin-left: 5px;" type="text" name="cpf" value=""><br>
+        ENDEREÇO: <input style="margin-left: 5px;" type="text" name="endereco" value=""><br>
+        TELEFONE: <input style="margin-left: 5px;" type="text" name="telefone" value=""><br>
+        LOGIN: <input style="margin-left: 5px;" type="text" name="login" value=""><br>
+        SENHA: <input style="margin-left: 5px;" type="text" name="senha" value=""><br>
+
+        <input style="margin-left:15px;"type="submit" name="acao" value="Editar">
+      </p>
+    </form>
+            <center>
+
+
+          </form>
+    
         </main>
 
 
