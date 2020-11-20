@@ -11,7 +11,7 @@ font-family: "Open Sans";
 body{
 
 color:black;
-background-color: white;
+background-color: rgb(235,255,255);
 margin:0;
 padding:0;
 
@@ -105,7 +105,29 @@ color:white;
 
 }
 
+.fa-primary {
 
+color:rgb(10, 91, 97);
+
+}
+
+.primeiro-parag{
+
+text-align: left;
+color:rgb(10, 91, 97);
+
+}
+
+.segundo-parag{
+
+color:rgb(10, 91, 97);
+
+}
+
+h1{
+
+	color:rgb(10, 91, 97)
+}
 
 
 /*tela de celular*/
