@@ -59,15 +59,17 @@
           <center><h1>Edição de Clientes</h1></center>
           <center>
           <form name="dados" method="post" action="editarbd.php" style="margin-left: -15px;">
+            <h1>Selecione um ID</h1>
       <p>
-        ID: <input style="margin-left: 5px;" type="text" name="id" value=""><Br>
-        Nome: <input style="margin-left: 5px;" type="text" name="nome" value=""><br>
-        RG: <input style="margin-left: 5px;" type="text" name="rg" value=""><br>
-        CPF: <input style="margin-left: 5px;" type="text" name="cpf" value=""><br>
-        ENDEREÇO: <input style="margin-left: 5px;" type="text" name="endereco" value=""><br>
-        TELEFONE: <input style="margin-left: 5px;" type="text" name="telefone" value=""><br>
-        LOGIN: <input style="margin-left: 5px;" type="text" name="login" value=""><br>
-        SENHA: <input style="margin-left: 5px;" type="text" name="senha" value=""><br>
+        <input style="margin-left: 5px;" type="text" name="id" value="" required><Br>
+        <h1>Edite os seguintes campos:</h1>
+        Nome<br> <input style="margin-left: 5px;" type="text" name="nome" value="" required><br>
+        RG<br> <input style="margin-left: 5px;" type="text" name="rg" value="" required><br>
+        CPF<br> <input style="margin-left: 5px;" type="text" name="cpf" value="" required><br>
+        ENDEREÇO<br> <input style="margin-left: 5px;" type="text" name="endereco" value="" required><br>
+        TELEFONE<br> <input style="margin-left: 5px;" type="text" name="telefone" value="" required><br>
+        LOGIN<br> <input style="margin-left: 5px;" type="text" name="login" value="" required><br>
+        SENHA<br> <input style="margin-left: 5px;" type="text" name="senha" value="" required><br><Br>
 
         <input style="margin-left:15px;"type="submit" name="acao" value="Editar">
       </p>
