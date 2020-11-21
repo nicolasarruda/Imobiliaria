@@ -1,7 +1,9 @@
 <?php
 session_start();
 ?>
-
+<?php 
+include 'checkLoginAdm.php'
+?>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
