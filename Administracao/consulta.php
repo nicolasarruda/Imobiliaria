@@ -66,7 +66,7 @@
             <center><h1>Consultar Cliente</h1>
             <form style = "color:rgb(23,127,135);" name="dados" method="post" action="consultabd.php" >
         	<p>Digite o código do cliente<br>
-        		<input  type="text" name="id" value=""></p>
+        		<input  type="text" name="id" value="" maxlength="32"></p>
 			<p>
 			<input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Pesquisar">
        	 <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Cancelar">

@@ -6,7 +6,7 @@
 
 	if ($acao == "Cancelar")
 	{
-		//break;
+		header("Location: clientes.php");
 	}
 	else
 	{
