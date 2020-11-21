@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20-Nov-2020 às 23:38
+-- Tempo de geração: 21-Nov-2020 às 20:57
 -- Versão do servidor: 10.4.14-MariaDB
 -- versão do PHP: 7.4.11
 
@@ -38,6 +38,13 @@ CREATE TABLE `administrativos` (
   `login` varchar(10) NOT NULL,
   `senha` int(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `administrativos`
+--
+
+INSERT INTO `administrativos` (`codigo`, `nome`, `rg`, `cpf`, `endereco`, `telefone`, `funcao`, `login`, `senha`) VALUES
+(1, 'jose', '', '', '', '', '', 'jose', 1234);
 
 -- --------------------------------------------------------
 
@@ -97,6 +104,13 @@ CREATE TABLE `corretores` (
   `senha` int(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Extraindo dados da tabela `corretores`
+--
+
+INSERT INTO `corretores` (`codigo`, `nome`, `rg`, `cpf`, `creci`, `endereco`, `telefone`, `login`, `senha`) VALUES
+(1, 'Moacir', '44444444444', '44444444444', '44444444', 'Vila Ana', '99999-4444', 'moacir', 1234);
+
 -- --------------------------------------------------------
 
 --
@@ -112,6 +126,14 @@ CREATE TABLE `imoveis` (
   `preco` decimal(10,2) NOT NULL,
   `endereco` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `imoveis`
+--
+
+INSERT INTO `imoveis` (`codigo`, `fk_proprietario_codigo`, `fk_cliente_codigo`, `tipo`, `numquartos`, `preco`, `endereco`) VALUES
+(1, 1, 1, 'Casa', 3, '800000.00', 'Ponte São João'),
+(2, 1, 3, 'Apartamento', 2, '560000.00', 'Vila Progresso');
 
 -- --------------------------------------------------------
 
@@ -204,7 +226,7 @@ ALTER TABLE `representacao`
 -- AUTO_INCREMENT de tabela `administrativos`
 --
 ALTER TABLE `administrativos`
-  MODIFY `codigo` int(3) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `clientes`
@@ -216,13 +238,13 @@ ALTER TABLE `clientes`
 -- AUTO_INCREMENT de tabela `corretores`
 --
 ALTER TABLE `corretores`
-  MODIFY `codigo` int(3) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `imoveis`
 --
 ALTER TABLE `imoveis`
-  MODIFY `codigo` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `codigo` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de tabela `proprietarios`
