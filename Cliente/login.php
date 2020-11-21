@@ -56,7 +56,7 @@
         <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;"type="submit" value="Entrar" onclick="entrar()"><br>
     </form>
         <br><br>
-                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relap's? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma cont</p>
+                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Deseja recuperar a sua conta via Token? Clique <a href="recuperar.php" style = "font-weight: bold;color:white">aqui</a></p>
                 </center>
     </div>
 

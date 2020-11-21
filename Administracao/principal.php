@@ -1,4 +1,10 @@
 <?php
+session_start();
+?>
+<?php 
+include 'checkLoginAdm.php'
+?>
+<?php
   include 'conexao.php'; 
 ?>
 
