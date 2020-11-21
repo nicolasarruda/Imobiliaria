@@ -26,13 +26,13 @@
     </div>
     </header>
     <div class = "header-2">
-            <ul>
-            <li><img src="imagens\relapsoslogo.png"></li>
-            <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
-            <li><a href = "imoveis.php">IMÓVEIS</a></li>
-            <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
-            <li><a href = "contatos_login.php">CONTATOS</a></li>
-            </ul>
+                <ul>
+                <li><img src="imagens\relapsoslogo.png"></li>
+                <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
+                <li><a href = "imoveis.php">IMÓVEIS</a></li>
+               <!-- <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li> -->
+                <li><a href = "contatos_login.php">CONTATOS</a></li>
+                </ul>
         </div> 
         <table class = "lista-imoveis" style = "margin-top:10px;width:80%;font-family: 'Book Antiqua'">
     <?php $link = "xml\imoveis.xml";

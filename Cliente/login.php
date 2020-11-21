@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Imobiliária RELAPSOS</title>
+    <title>Imobiliária RELAP'S</title>
     <link rel = "stylesheet" href="css/style.css" type = "text/css">
     <script language="JavaScript" src="js/funcoes.js"></script>
 </head>
@@ -30,7 +30,6 @@
             <li><img src="imagens\relapsoslogo.png"></li>
             <li style = "margin-left:200px;"><a href = "index.php">HOME</a></li>
             <li><a href = "imoveis.php">IMÓVEIS</a></li>
-            <li><a href = "cadastro_Clientes.php">CADASTRO DE USUÁRIOS</a></li>
             <li><a href = "contatos.php">CONTATOS</a></li>
             </ul>
     </div>
@@ -57,7 +56,7 @@
         <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;"type="submit" value="Entrar" onclick="entrar()"><br>
     </form>
         <br><br>
-                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relapsos? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma</p>
+                <p style = "font-family: 'Calibri';color:white;font-size: 20px;">Ainda não tem conta nos Relap's? Clique <a href="cadastro_Clientes.php" style = "font-weight: bold;color:white">aqui</a> para criar uma cont</p>
                 </center>
     </div>
 
@@ -71,9 +70,9 @@
             <a href="https://twitter.com/RelapsoR" target="_blank"><img src="imagens\logo_twitter.png"></a>
             <a href=""><img src="imagens\logo_whatsapp.png"></a>
             <br><br>
-            <p>Endereço: Rua Relapsa número: 5</p>
+            <p>Endereço: Rua Relap's número: 5</p>
             <p>CEP: 12345-123</p>
-            <p>Bairro: Vila dos Relapsos</p>
+            <p>Bairro: Vila dos Relap's</p>
         </center>
     </footer>
     

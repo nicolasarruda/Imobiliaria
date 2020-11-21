@@ -7,7 +7,7 @@ session_start();
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Imobiliária RELAPSOS</title>
+    <title>Imobiliária RELAP'S</title>
     <link rel = "stylesheet" href="css/style.css" type = "text/css">
     <script language="JavaScript" src="js/funcoes.js"></script>
 </head>
