@@ -43,7 +43,7 @@ include 'checkLoginAdm.php'
         Senha<br> <input style="margin-left: 5px;" type="text" name="senha" value="" required><br>
         Token<br> <input style="margin-left: 5px;" type="text" name="token" value="" required><br><br>
 
-        <input style="margin-left:15px;"type="submit" name="acao" value="Editar">
+        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white"type="submit" name="acao" value="Editar">
       </p>
     </form>
             <center>
