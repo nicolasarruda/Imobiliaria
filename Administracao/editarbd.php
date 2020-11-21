@@ -8,6 +8,7 @@
  		$telefone=$_POST['telefone'];
  		$login=$_POST['login'];
  		$senha=$_POST['senha'];
+ 		$token=$_POST['token'];
 
 				$sql = "UPDATE clientes SET 
 						nome='$nome', 
@@ -16,7 +17,8 @@
 						endereco='$endereco',
 						telefone='$telefone',
 						login='$login',
-						senha='$senha' 
+						senha='$senha', 
+						token='$token'
 						WHERE codigo='$id'";
 
 		$tabela = mysqli_query($conexao,$sql) or die (mysqli_error($conexao));            

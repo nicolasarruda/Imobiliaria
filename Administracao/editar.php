@@ -40,7 +40,8 @@ include 'checkLoginAdm.php'
         Endereço<br> <input style="margin-left: 5px;" type="text" name="endereco" value="" required><br>
         Telefone<br> <input style="margin-left: 5px;" type="text" name="telefone" value="" required><br>
         Login<br> <input style="margin-left: 5px;" type="text" name="login" value="" required><br>
-        Senha<br> <input style="margin-left: 5px;" type="text" name="senha" value="" required><br><Br>
+        Senha<br> <input style="margin-left: 5px;" type="text" name="senha" value="" required><br>
+        Token<br> <input style="margin-left: 5px;" type="text" name="token" value="" required><br><br>
 
         <input style="margin-left:15px;"type="submit" name="acao" value="Editar">
       </p>
