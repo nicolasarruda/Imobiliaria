@@ -1,6 +1,29 @@
 <?php
-session_start();
 
+	include 'conexao.php'; 
+/*
+	$acao=$_GET["acao"];
+
+	if ($acao == "Consultar")
+	{
+		$id=0;
+		$nome="";
+		$fone="";
+	}
+	else
+	{
+		$id=$_GET["id"];
+		
+		$sql = "SELECT * 
+				FROM clientes 
+				WHERE codigo=".$id;
+		$tabela = mysqli_query($conexao,$sql);
+		$linha = mysqli_fetch_array($tabela);
+		
+		$nome=$linha['nome'];
+		$fone=$linha['fone'];
+	}
+*/
 
 
 ?>
@@ -62,67 +85,15 @@ session_start();
             </li>
             </ul>
             </nav>
-        <main>
-         <center><h1>Cadastro de Clientes</h1> 
-        <form style = "color:rgb(23,127,135);" name="dados" method="post" action="adicaobd.php" >
-        <p style="margin-left: 25px">Nome<input  type="text" name="nome" value=""></p>
-        <p style="margin-left: 22.5px">RG<input type="text" name="rg" value=""></p>
-        <p style="margin-left: 44px;">CPF<input type="text" name="cpf" value=""> </p>
-        <p style="margin-left: 36px;">Endereço<input type="text" name="endereco" value=""></p>
-        <p style="margin-left: 0px;">Telefone<input type="text" name="telefone" value=""></p>
-        <p style="margin-left: 22.5px">E-mail<input type="email" name="email" value=""></p>
-        <p style="margin-left: 8px;">Login<input type="text" name="login" value=""></p>
-        <p style="margin-left: 8px;">Senha<input type="password" name="senha" value=""></p>
-        <!--<p style="margin-left: 22px;">Token<input type="password" name="token" value=""></p><br>-->
-        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Cadastrar">
-        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Cancelar">
-        </form>
-        </center>
-
+            <center><h1>Consultar Cliente</h1>
+            <form style = "color:rgb(23,127,135);" name="dados" method="post" action="consultabd.php" >
+        	<p style="margin-left: 25px">Digite o código do cliente<br>
+        		<input  type="text" name="id" value=""></p>
+			<p>
+			<input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Pesquisar">
+       	 <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Cancelar">
+			</form>
+			</center>
 <?php
-  
-/*
-$acao=$_GET["acao"];
-
-  if ($acao == "Cadastrar")
-  {
-    $idContato=0;
-    $nome="";
-    $fone="";
-  }
-  else
-  {
-    $idContato=$_GET["idContato"];
-    
-    $sql = "SELECT * 
-        FROM clientes 
-        WHERE codigo=". $codigo;
-    $tabela = mysqli_query($conexao,$sql);
-    $linha = mysqli_fetch_array($tabela);
-    
-    $nome=$linha['nome'];
-    $fone=$linha['fone'];
-  }
-  
-
-  $sql = "INSERT INTO clientes
-            (nome, rg, cpf, endereco, telefone, login, senha, token) 
-            VALUES 
-            ('$nome','$rg', '$cpf', '$endereco', '$telefone', '$email', '$login', '$senha', '$token')";
-
-*/
-?>
-     
-
-        </main>
-
-
-    </body>
-    <footer>
-        
-    </footer>
-
-</html>
-<?php
-  mysqli_close($conexao);
+	mysqli_close($conexao);
 ?>
