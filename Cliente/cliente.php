@@ -45,7 +45,54 @@ session_start();
     <div class ="img-2">
     <img src="imagens\imagem2.png">
     </div>
-    <div class = "final">
+    <h1>Destaques</h1>
+    <div class="slidershow middle" >
 
+      <div class="slides">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="imagens/1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="imagens/2.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="imagens/3.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="imagens/4.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="imagens/5.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+        <label for="r4" class="bar"></label>
+        <label for="r5" class="bar"></label>
+      </div>
+    </div>
+    <h1 style="margin-top: -160px;">Gostou do que viu? Acompanhe o nosso trabalho pelas nossas redes sociais!</h1>
 </body>
+<footer style = "width: 100vw;">
+<div style="background-color:  rgb(23,127,135) ;height:400;width:100%;">  
+<div class= "contat">
+        <center>
+            <a href="https://www.facebook.com/relapso.relapsus.5" target="_blank"><img src="imagens\logo_facebook.png";border = "0"></a>
+            <a href="https://www.instagram.com/liderrelapsos/" target="_blank"><img  src="imagens\logo_instagram.png";border = "0"></a>
+            <a href="https://twitter.com/RelapsoR" target="_blank"><img src="imagens\logo_twitter.png";border = "0"></a>
+            <a href=""><img src="imagens\logo_whatsapp.png";border = "0"></a> 
+            <br>
+            <p><a style = "color:white;text-decoration: none;" >Endereço: Rua Alseu valenca - número: 5</p>
+            <p><a style = "color:white;text-decoration: none;" >CEP: 12345-123</p>
+            <p><a style = "color:white;text-decoration: none;" >Bairro: Vila do florescer</p>
+        </center>
+  </footer>
 </html>

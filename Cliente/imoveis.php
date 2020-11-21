@@ -51,21 +51,20 @@ echo "</th>";
 
 </table>
 </body>
-<footer>
+<footer style = "width: 100vw;">
+<div style="background-color:  rgb(23,127,135) ;height:400;width:100%;">  
+<div class= "contat">
         <center>
+            <a href="https://www.facebook.com/relapso.relapsus.5" target="_blank"><img src="imagens\logo_facebook.png";border = "0"></a>
+            <a href="https://www.instagram.com/liderrelapsos/" target="_blank"><img  src="imagens\logo_instagram.png";border = "0"></a>
+            <a href="https://twitter.com/RelapsoR" target="_blank"><img src="imagens\logo_twitter.png";border = "0"></a>
+            <a href=""><img src="imagens\logo_whatsapp.png";border = "0"></a> 
             <br>
-            <hr>
-            <h3 class="">Contato:</h3><br>
-            <a href="https://www.facebook.com/relapso.relapsus.5" target="_blank"><img src="imagens\logo_facebook.png"></a>
-            <a href="https://www.instagram.com/liderrelapsos/" target="_blank"><img src="imagens\logo_instagram.png"></a>
-            <a href="https://twitter.com/RelapsoR" target="_blank"><img src="imagens\logo_twitter.png"></a>
-            <a href=""><img src="imagens\logo_whatsapp.png"></a>
-            <br><br>
-            <p>Endereço: Rua Relapsa número: 5</p>
-            <p>CEP: 12345-123</p>
-            <p>Bairro: Vila dos Relapsos</p>
+            <p><a style = "color:white;text-decoration: none;" >Endereço: Rua Alseu valenca - número: 5</p>
+            <p><a style = "color:white;text-decoration: none;" >CEP: 12345-123</p>
+            <p><a style = "color:white;text-decoration: none;" >Bairro: Vila do florescer</p>
         </center>
-    </footer>
+  </footer>
 </html>
 
 

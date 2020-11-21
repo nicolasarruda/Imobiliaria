@@ -353,3 +353,25 @@ input[name="r"]{
 #r5:checked ~ .s1{
   margin-left: -80%;
 }
+
+.contat img{
+  width: 200px;    /* largura da imagem */
+  height: 100px;   /*  altura da imagem  */
+  margin-top: 5px; /* margem do topo */
+}
+footer {
+  line-height: 50px;
+  height: 100px;
+  background: lightgray;
+}
+ 
+footer ul {
+  float: right;
+  display: table;
+}
+ 
+footer ul li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
