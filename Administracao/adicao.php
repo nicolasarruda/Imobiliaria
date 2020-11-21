@@ -28,15 +28,15 @@ include 'checkLoginAdm.php'
             </nav>
         <main>
          <center><h1>Cadastro de Clientes</h1> 
-        <form style = "color:rgb(23,127,135);" name="dados" method="post" action="adicaobd.php" >
-        <p>Nome<br><input  type="text" name="nome" value=""></p>
-        <p>RG<br><input type="text" name="rg" value=""></p>
-        <p>CPF<br><input type="text" name="cpf" value=""> </p>
-        <p>Endereço<br><input type="text" name="endereco" value=""></p>
-        <p>Telefone<br><input type="text" name="telefone" value=""></p>
-        <p>E-mail<br><input type="email" name="email" value=""></p>
-        <p>Login<br><input type="text" name="login" value=""></p>
-        <p>Senha<br><input type="password" name="senha" value=""></p>
+        <form style = "color:rgb(23,127,135);" name="dados" method="post" action="adicaobd.php" required>
+        <p>Nome<br><input  type="text" name="nome" value=""required></p>
+        <p>RG<br><input type="text" name="rg" value=""required></p>
+        <p>CPF<br><input type="text" name="cpf" value=""required> </p>
+        <p>Endereço<br><input type="text" name="endereco" value=""required></p>
+        <p>Telefone<br><input type="text" name="telefone" value=""required></p>
+        <p>E-mail<br><input type="email" name="email" value=""required></p>
+        <p>Login<br><input type="text" name="login" value=""required></p>
+        <p>Senha<br><input type="password" name="senha" value=""required></p>
         <!--<p style="margin-left: 22px;">Token<input type="password" name="token" value=""></p><br>-->
         <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Cadastrar">
         <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Cancelar">

@@ -6,7 +6,7 @@
 
 	if ($acao == "Cancelar")
 	{
-		header("Location: clientes.php");
+		header("Location: principal.php");
 	}
 	else
 	{

@@ -3,7 +3,7 @@ $acao=$_POST['acao'];
 
 	if ($acao == "Cancelar")
 	{
-		//break;
+		header("Location: principal.php");
 	}
 	else
 	{
@@ -25,7 +25,8 @@ $acao=$_POST['acao'];
             ('$nome','$rg', '$cpf', '$endereco', '$telefone', '$email', '$login', '$senha', '$token')";
             $tabela = mysqli_query($conexao,$sql) or die (mysqli_error($conexao));
             mysqli_close($conexao);
+            header("Location: clientes.php");
           }
-          header("Location: clientes.php");
+          
 
 ?>
