@@ -39,7 +39,7 @@ session_start();
             <li>
             <a href="adicao.php" class="nav-link">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus-circle" class="svg-inline--fa fa-plus-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg>
-                    <span class = "link-text">Adicionar Clientes</span>
+                    <span class = "link-text">Adição de Clientes</span>
                 </a>
             </li>
             <li>
@@ -60,22 +60,29 @@ session_start();
                     <span class = "link-text">Gerar novo Token</span>
                 </a>
             </li>
+            <li>
+            <a href="consulta.php" class="nav-link">
+               <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+                    <span class = "link-text">Buscar por ID</span>
+                </a>
+            
+            </li>
             </ul>
             </nav>
         <main>
          <center><h1>Cadastro de Clientes</h1> 
         <form style = "color:rgb(23,127,135);" name="dados" method="post" action="adicaobd.php" >
-        <p style="margin-left: 25px">Nome<input  type="text" name="nome" value=""></p>
-        <p style="margin-left: 22.5px">RG<input type="text" name="rg" value=""></p>
-        <p style="margin-left: 44px;">CPF<input type="text" name="cpf" value=""> </p>
-        <p style="margin-left: 36px;">Endereço<input type="text" name="endereco" value=""></p>
-        <p style="margin-left: 0px;">Telefone<input type="text" name="telefone" value=""></p>
-        <p style="margin-left: 22.5px">E-mail<input type="email" name="email" value=""></p>
-        <p style="margin-left: 8px;">Login<input type="text" name="login" value=""></p>
-        <p style="margin-left: 8px;">Senha<input type="password" name="senha" value=""></p>
+        <p>Nome<br><input  type="text" name="nome" value=""></p>
+        <p>RG<br><input type="text" name="rg" value=""></p>
+        <p>CPF<br><input type="text" name="cpf" value=""> </p>
+        <p>Endereço<br><input type="text" name="endereco" value=""></p>
+        <p>Telefone<br><input type="text" name="telefone" value=""></p>
+        <p>E-mail<br><input type="email" name="email" value=""></p>
+        <p>Login<br><input type="text" name="login" value=""></p>
+        <p>Senha<br><input type="password" name="senha" value=""></p>
         <!--<p style="margin-left: 22px;">Token<input type="password" name="token" value=""></p><br>-->
-        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Cadastrar">
-        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;margin-left:85px;" type="submit" name="acao" value="Cancelar">
+        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Cadastrar">
+        <input style="padding:10px;border:1px solid white;border-radius: 10px;background-color:rgb(23,173,170);color:white;margin:20px;" type="submit" name="acao" value="Cancelar">
         </form>
         </center>
 
