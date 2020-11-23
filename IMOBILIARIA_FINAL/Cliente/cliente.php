@@ -34,7 +34,6 @@ session_start();
             <li><img src="imagens\relapsoslogo.png"></li>
             <li style = "margin-left:200px;"><a href = "cliente.php">HOME</a></li>
             <li><a href = "imoveis_venda.php">IMÓVEIS</a></li>
-            <li><a href = "imoveis_cliente.php">CONSULTAS</a></li>
             <li><a href = "contatos_cliente.php">CONTATOS</a></li>
             </ul>
     </div>
