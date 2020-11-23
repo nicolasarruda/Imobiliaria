@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<array>
+	<data>
+		<cidade>Jundiaí</cidade>
+
+	</data>
+	<imoveis>
+		<casas>
+
+			<nome> Casa na Praia </nome>
+			<descricao>Cansada da vida cinza da cidade de SP? Venha para a melhor praia do mundo!</descricao>
+			<imagem>imagens\casanapraia.jpg</imagem>
+			<comodos>6</comodos>
+			<preco>$$</preco>
+			<quartos>2</quartos>
+			<endereco>Copacapana</endereco>
+			</casas>
+		<casas>
+
+			<nome> Cabana na Floresta </nome>
+			<descricao>Gosta de acampar? Que tal acampar para todo o sempre? Com essa perfeita cabana, o seu sonho pode se tornar realidade!</descricao>
+			<imagem>imagens\cabana.jpg</imagem>
+			<comodos>4</comodos>
+			<preco>$</preco>
+			<quartos>1</quartos>
+			<endereco>Curitiba</endereco>
+		</casas>
+		<casas>
+
+			<nome> Apartamento todas as Estrelas </nome>
+			<descricao>Gosta de ver estrelas? Esse apartamente pode ter 5 estrelas, mas voce podera ver todas! </descricao>
+			<imagem>imagens\apchique.jpg</imagem>
+			<comodos>4</comodos>
+			<preco>$$$$$</preco>
+			<quartos>3</quartos>
+			<endereco>Jardim Europa</endereco>
+		</casas>
+		<casas>
+
+			<nome> Casa com Piscina </nome>
+			<descricao>Nada melhor que uma casa com piscina para alegrar a garotada e saber mais sobre as suas amizades! hehe</descricao>
+			<imagem>imagens\casapiscina.jpg</imagem>
+			<comodos>6</comodos>
+			<preco>$$$</preco>
+			<quartos>2</quartos>
+			<endereco>Alfaville</endereco>
+		</casas>
+	</imoveis>
+</array>

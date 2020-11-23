@@ -1,0 +1,56 @@
+* {
+
+margin:0px;
+padding:0px;
+
+}
+.doindex {
+
+background-image: url("../imagens/casanoite.jpg");
+background-position:-10px 0px;
+color:white;
+}
+
+input {
+
+display:block;
+height: 55px;
+width: 400px;
+margin:10px;
+border-radius: 30px;
+border:none;
+font-size:16pt;
+padding-left:10px;
+background-color: rgb(255, 255, 255, 0.1);
+outline:none;
+color:white;
+}
+
+div#corpo-form {
+
+width:420px;
+margin:150px auto 0px auto;
+
+}
+
+div#corpo-form h1{
+
+text-align: center;
+padding:20px;
+
+}
+
+input[type=submit]{
+
+background-color:rgb(23,127,175);
+color:white;
+cursor: pointer;
+}
+
+::placeholder {
+
+color:white;
+
+}
+
+
